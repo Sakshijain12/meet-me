@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* CSS */
+button {
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  background-origin: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button_b1 {
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  background-origin: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button_b2 {
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background-color:red;
+  background-origin: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+  padding-bottom:5%;
+  border: 3px rgb(0, 0, 0);
+  border-style: groove;
+  border-radius: 0.5%;
+  /* background-color: black; */
+
+}
+
+.Video {
+  border: 2px black;
+  height: auto;
+  justify-content: center;
+  width: 90%;
+  margin: 5%;
+}
+
+.videosetting {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.floatingName {
+  display: flex;
+  justify-content: center;
+}
+
+.muteButton {
+  justify-content: center;
+  height: 30;
+  top: 5%;
+  display: flex;
+}
+
+.options {
+  margin: 5%;
+  padding: 2%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.option {
+  flex: 1;
+  margin-bottom: 3%;
+  font-size: 30;
+}
+
+.user-list {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Userlist h1 {
+  -webkit-background-clip: text;
+  font-size: 30;
+}
+
+.Userlist p {
+  font-size: 25;
+  -webkit-background-clip: text;
+}
+
+@media (max-width: 998px) {
+  .mobile-videos {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding-bottom:5%;
+    border: 3px rgb(0, 0, 0);
+    border-style: groove;
+    border-radius: 0.5%;
+    align-items: center;
+  }
+  .mobile-Video {
+    border: 2px black;
+    height: auto;
+    width: 185%;
+    margin: 7.5%;
+  }
+  .mobile-videosetting {
+    height: auto;
+      width: 185%;
+      height: auto;
+  }
+  .mobile-floatingName {
+    display: flex;
+    justify-content: right;
+  }
+  .mobile-muteButton {
+    justify-content: right;
+    height: 30;
+    top: 5%;
+    display: flex;
+  }
+}
