@@ -14,6 +14,7 @@ Front end is done using ReactJS. Works on both computers and mobiles (full respo
 ## Screenshots
 
 ### Home page 
+![App Screenshot](screenshots/ss1.png)\
 
 ### Call Request is sent to other user.
 ![App Screenshot](screenshots/ss3.png)\
