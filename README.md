@@ -1,9 +1,8 @@
-
-# ZkypeVideo
+# Meet-Me
 
 A video calling application built in your web browser
 Implemented using WebRTC, I used Simple-Peer JS which is a wrap around WebRTC and simplifies things. 
-Socket IO is used for synchronization and hand shakes between the users.\
+Socket IO is used for synchronization and handshakes between the users.\
 Front end is done using ReactJS. Works on both computers and mobiles (full responsive design)
 
 
@@ -14,13 +13,13 @@ Front end is done using ReactJS. Works on both computers and mobiles (full respo
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Sakshijain12/meet-me.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd meet-me
 ```
 
 Install dependencies
@@ -57,7 +56,7 @@ Open http://localhost:3000 to access the website
 
 ## Screenshots
 
-![App Screenshot](/screenshots/3.png)\
+
 ![App Screenshot](/screenshots/2.png)\
 ![App Screenshot](/screenshots/1.png)\
 Running locally on a device with 2 tabs open, one calling the other
