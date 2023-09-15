@@ -13,10 +13,10 @@ Front end is done using ReactJS. Works on both computers and mobiles (full respo
 
 ## Screenshots
 
-### Home page
+### Home page 
 ![App Screenshot](screenshots/ss1.png)\
 
-### Request is sent to other user.
+### Call Request is sent to other user.
 ![App Screenshot](screenshots/ss3.png)\
 
 ### Running locally on a device with 2 tabs open, one calling the other.
