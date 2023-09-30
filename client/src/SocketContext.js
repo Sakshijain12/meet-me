@@ -23,7 +23,7 @@ const ContextProvider = ({ children }) => {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io.connect("http://localhost:8000");
+    socket.current = io.connect("https://meet-me-xq4k.onrender.com");
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
       .then((currentStream) => {
         setStream(currentStream);
