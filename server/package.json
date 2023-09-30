@@ -1,5 +1,5 @@
 {
-  "name": "web_rtc_chat_app",
+  "name": "meet-me-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "build": "npm i"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sakshi",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
