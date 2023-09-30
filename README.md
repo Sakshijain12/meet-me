@@ -5,7 +5,37 @@ Implemented using WebRTC, I used Simple-Peer JS which is a wrap around WebRTC an
 Socket IO is used for synchronization and handshakes between the users.\
 Front end is done using ReactJS. Works on both computers and mobiles (full responsive design)
 
+## Features
 
+- Call your friends by getting their unique id.
+- Call random online users.
+- Cross platform, supported on mobile devices.
+
+## Screenshots
+
+### Home page 
+![App Screenshot](screenshots/ss1.png)
+
+### Call Request is sent to other user.
+![App Screenshot](screenshots/ss3.png)
+
+### Running locally on a device with 2 tabs open, one calling the other.
+![App Screenshot](screenshots/ss4.png)
+
+### Mute/Unmute button is there to mute/unmute yourself.
+![App Screenshot](screenshots/ss5.png)
+
+### Send Call request to online users.
+![App Screenshot](screenshots/ss6.png)
+
+### Mobile responsive view of website
+![App Screenshot](screenshots/ss7.png)
+
+### Two videos are showing up in vertical way, with button to mute
+![App Screenshot](screenshots/ss8.png)
+
+### Hamberger Menu with the navbar options.
+![App Screenshot](screenshots/ss10.png)
 
 
 ## Run Locally
@@ -47,22 +77,3 @@ Start the front-end
 ```
 
 Open http://localhost:3000 to access the website
-
-## Features
-
-- Call your friends by getting their unique id.
-- Call random online users.
-- Cross platform, supported on mobile devices.
-
-## Screenshots
-
-
-![App Screenshot](/screenshots/2.png)\
-![App Screenshot](/screenshots/1.png)\
-Running locally on a device with 2 tabs open, one calling the other
-![App Screenshot](/screenshots/4.png)
-
-
-
-
-
